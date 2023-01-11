@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    /* padding-bottom: -230000px; */
+}
+.count{
+    background-color: #edf6f9;
+    height: 33%;
+    width: 100%;
+    font-size: 87px;
+    display: flex;
+justify-content: center;
+/* padding:; */
+align-items: center;
+}
+
+.inputt{
+width: 100%;
+background-color: #83c5be;
+
+display: flex;
+justify-content: center;
+align-items: center;
+height: 33%;
+
+
+/* display: inline; */
+}
+h2{
+  padding-right: 10px;
+}
+.hours{
+  
+    background-color: #006d77;
+    border: none;
+    color: white;
+   width: 20rem;
+   height: 8rem;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+   align-items: center;
+   /* margin-right: 650px; */
+   /* margin-left: 650px; */
+    cursor: pointer;
+    z-index:1;
+}
+/* hours */
+
+/* button:hover{background-color:orange;} */
+
+/* button:focus{background-color:red;} */
+
+.Btn{
+    background-color: #ffddd2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33%;
+    width: 100%;
+ 
+}
+.but{
+    background-color: #e29578;
+    border: none;
+    color: white;
+  padding: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  
+   /* margin-right: 650px; */
+   /* margin-left: 650px; */
+    /* cursor: pointer; */
+    
+    border-radius: 12px;
+   
+  }
+  .but:hover{
+    
+    background: white;
+    border: solid 1px white;
+    color: grey;
+    }
+    
+   
+  /* button{
+    @include corners (5px);
+    background:$base-color;
+    color:$white;
+    border: solid 1px $white;
+    text-decoration:none;
+    cursor:pointer;
+    font-size:1.2em;
+    padding: 18px 10px;
+    width:180px;
+    margin: 10px;
+     outline: none;
+      &:hover{
+        @include transition;
+        background:$white;
+        border: solid 1px $white;
+        color:$base-color;
+        }
+    } */
+
+    input{
+        z-index:1;
+    }
+    @media only screen and (max-width: 425px){
+      h2{
+        padding-right: 2px;
+      }
+      .hours{
+        width: 9rem;
+        height: 4rem;
+      }
+    }
+    @media only screen and (max-width: 768px){
+      h2{
+        padding-right: 1px;
+      }
+      .hours{
+        width: 15rem;
+        height: 6rem;
+      }
+    }
