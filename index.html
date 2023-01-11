@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountDown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="inputt">
+        <div class="hours">
+            <h2>hours</h2>
+            <input type="number"   name="hours" id="houri" maxlength="2" value="00" max="99" min="00">
+        </div>
+
+        <div class="hours">
+            <h2>minutes</h2>
+            <input type="number"  name="minutes" id="minutei" maxlength="2" max="59" min="00" value="00">
+        </div>
+        <div class="hours">
+            <h2>seconds</h2>
+            <input type="number"  name="seconds" id="secondi" maxlength="2" max="59" min="00" value="00">
+        </div>
+    </div>
+    <div class="count"><p id="countdown">00 : 00 : 00</p></div>
+    <div class="Btn">
+        <button class="startBtn but" >Start Timer</button>
+    <button class="pauseBtn but" >Resume</button>
+
+    <button class="stopBtn but" >Pause</button>
+    </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
